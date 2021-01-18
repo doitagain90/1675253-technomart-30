@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Андрей Морозов](https://up.htmlacademy.ru/htmlcss/30/user/1675253).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Рус](https://htmlacademy.ru/profile/vanillawulf).
 
 ---
 
