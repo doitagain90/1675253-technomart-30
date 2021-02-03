@@ -14,8 +14,8 @@
 <body>
     <header>
         <section>
-            <h2>site hat</h2>
-            <a href="#"><img src="img/header/main_logo.svg" width="108" height="18" alt="Логотип интернет магазина Техномарт"></a>
+            <h2>Логотип и заказы</h2>
+            <img src="img/header/main_logo.svg" width="108" height="18" alt="Логотип интернет магазина Техномарт">
             <form action="#" method="GET">
                 <img src="img/header/search.svg" width="17" height="17" alt="Иконка поиска">
                 <input type="search" value="Поиск:">
@@ -36,8 +36,9 @@
             <ul>
                 <li>
                     <img src="img/header/login.svg" width="20" height="17" alt="Иконка входа в аккаунт">
-                    <a href="# "> Войти</a></li>
-                <li>Регистрация</li>
+                    <a href="#"> Войти</a>
+                </li>
+                <li><a href="#">Регистрация</a></li>
             </ul>
         </section>
         <nav>
@@ -216,7 +217,21 @@
                 <a href="blanc.html ">Заблудились? НапиШИТЕ НАМ!</a>
             </div>
         </section>
-
+        <section>
+            <h3>Форма обратной связи</h3>
+            <form method="POST" action="https://echo.htmlacademy.ru/ ">
+                <label>Ваше имя:<input type="text" required placeholder="Имя Фамилия "></label>
+                <label>Ваш e-mail:<input type="email" required placeholder="email@example.com "></label>
+                <label>Текст письма:<textarea required aria-placeholder="В свободной форме" role="textbox"></textarea></label>
+                <button type="submit">Отправить</button>
+                <button name="close"><img src="img/aside/close.svg " width="21" height="21" alt="кнопка закрыть"></button>
+            </form>
+        </section>
+        <section>
+            <h3>Карта с расположением офиса</h3>
+            <img src="img/aside/map.png " width="966" height="471" alt="карта">
+            <button name="close "><img src="img/aside/close.svg " width="21" height="21" alt="кнопка закрытия"></button>
+        </section>
     </main>
     <footer>
         <section>
@@ -258,19 +273,6 @@
         <p>Обратная связь: <a href="mail@htmlacademy.ru ">mail@htmlacademy.ru</a></p>
         <p>Разработано — <a href="htmlacademy.ru ">htmlacademy.ru</a></p>
     </footer>
-    <aside>
-        <form method="POST" action="https://echo.htmlacademy.ru/ ">
-            <label>Ваше имя:<input type="text" required placeholder="Имя Фамилия "></label>
-            <label>Ваш e-mail:<input type="email" required placeholder="email@example.com "></label>
-            <label>Текст письма:<textarea required aria-placeholder="В свободной форме" role="textbox"></textarea></label>
-            <button type="submit">Отправить</button>
-            <button name="close"><img src="img/aside/close.svg " width="21" height="21" alt="кнопка закрыть"></button>
-        </form>
-    </aside>
-    <aside>
-        <img src="img/aside/map.png " width="966" height="471" alt="карта">
-        <button name="close "><img src="img/aside/close.svg " width="21" height="21" alt="кнопка закрытия"></button>
-    </aside>
 </body>
 
 </html>
